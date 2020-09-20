@@ -34,6 +34,25 @@ p{
   width: 30%;
   margin: auto;
 }
+.author{
+animation-duration: 3s;
+animation-name: slidein;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+overflow: hidden;
+}
+
+@keyframes slidein {
+from {
+  margin-left: 100%;
+  width: 300%;
+}
+
+to {
+  margin-left: 0;
+  width: 100%;
+}
+}
 .contact-msg{
   width: 40%;
   margin: 40px auto 60px;
